@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rymo.</title>
+        <link rel="stylesheet" href="style sheet/all.min.css" />
+        <link rel="stylesheet" href="style sheet/style.css">
+        <link rel="icon" href="images/logo3.png">
+    </head>
+
+    <body>
+        <header>
+            <a href="#"><img src="images/logo2.png" class="logo" alt=""></a>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="lg-bag">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span class="badge"></span>
+                    </a>
+                </li>
+                <ul class="log">
+                    <li><a href="login.html"><i class="fa-regular fa-user"></i>Sign-In</a></li>
+                    <li><a href="register.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Sign-Up</a></li>
+                </ul>
+                <ul class="user-info" id="userInfo">
+                    <li class="user" ><a href="" id="user"></a><i class="fa-regular fa-user"></i></li>
+                </ul>
+            </ul>
+            <div class="mobile">
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    <span class="badge-m">0</span>
+                </a>                
+                <span><i class="bar fas fa-outdent"></i><i class="fa-solid fa-xmark closed close"></i></span>
+            </div>
+        </header>
+        <section class="pro-details">
+            <div class="container">
+                <div class="single-pro-img">
+                    <!-- <img src="images/products/f1.jpg" width="100%" id="mainImg" alt="">
+                    <div class="small-img-group">
+                        <div class="small-img-col">
+                            <img class="small-img" src="images/products/f1.jpg" width="100%" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img class="small-img" src="images/products/f2.jpg" width="100%" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img class="small-img" src="images/products/f3.jpg" width="100%" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img class="small-img" src="images/products/f4.jpg" width="100%" alt="">
+                        </div>
+                    </div> -->
+                </div>
+                <div class="single-pro-details">
+                    <h6>Home / T-Shirt</h6>
+                    <h4>Men's Fashion T-Shirt</h4>
+                    <h2 data-price="139.00" id="price-product">$139.00</h2>
+                    <select >
+                        <option>select size</option>
+                        <option>small</option>
+                        <option>large</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <!-- <input type="number" id="num-product" value="1">  -->
+                    <button class="normal" onclick="printProduct(this)">Add To Cart</button>
+                    <h4>Product Details</h4>
+                    <p>
+                        Introducing a trendy cotton shirt: This stylish cotton shirt is a perfect blend of fashion and comfort. Made from high-quality cotton, it offers a soft and breathable feel, keeping you cool throughout the day. With its modern design and versatility, it's an essential addition to your wardrobe.
+                        is its breathability. The fabric allows air to circulate freely . 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="product1">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <p>Summer Collection New Modern Design</p>
+                <div class="pro-container">
+                    <div class="pro img-n">
+                        <img src="images/products/f4.jpg" alt="" data-name="products/f">
+                        <div class="info">
+                            <span>adidas</span>
+                            <h5>Cartoon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    
+                    
+                    
+                    <div class="pro img-n">
+                        <img src="images/products/nn1.jpg" alt="" data-name="products/nn">
+                        <div class="info">
+                            <span>adidas</span>
+                            <h5>Cartoon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="pro img-n">
+                        <img src="images/products/s1.jpg" alt="" data-name="products/s">
+                        <div class="info">
+                            <span>adidas</span>
+                            <h5>Cartoon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="pro img-n">
+                        <img src="images/products/m1.jpg" alt="" data-name="products/m">
+                        <div class="info">
+                            <span>adidas</span>
+                            <h5>Cartoon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="container">
+                <div class="newstext">
+                    <h4>Sign Up for Newsletter</h4>
+                    <p>Get E-mail updates about our latest shop and <span>Special Offers.</span></p>
+                </div>
+                <div class="form">
+                    <input type="email" name="" id="" placeholder="Your email address">
+                    <button class="normal">Sign Up</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container f-top">
+                <div class="footer-logo">
+                    <img src="images/logo-footer.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, Sequi perspiciatis neque,Sequi perspiciatis neque,
+                        tempora maiores consequatur hic!
+                    </p>
+                </div>
+                <div class="featured">
+                    <h5>featured</h5>
+                    <ul>
+                        <li><a href="#">men</a></li>
+                        <li><a href="">women</a></li>
+                        <li><a href="">boys</a></li>
+                        <li><a href="">girls</a></li>
+                        <li><a href="">shoes</a></li>
+                        <li><a href="">clothes</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h5>contact us</h5>
+                    <div>
+                        <div class="connection">
+                            <h6>Address</h6>
+                            <p>123 street Name, city, us</p>
+                        </div>
+                        <div class="connection">
+                            <h6>Phone</h6>
+                            <p>(123) 465-7890</p>
+                        </div>
+                        <div class="connection">
+                            <h6>E-mail</h6>
+                            <p>gabr18431@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="images">
+                    <h5>instagram</h5>
+                    <div class="instagram">
+                        <img src="images/insta/1.jpg" alt="">
+                        <img src="images/insta/2.jpg" alt="">
+                        <img src="images/insta/3.jpg" alt="">
+                        <img src="images/insta/4.jpg" alt="">
+                        <img src="images/insta/5.jpg" alt="">
+                        <img src="images/insta/66.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container f-bottom">
+                <div class="bottom">
+                    <img src="images/pay.png" alt="">
+                </div>
+                <div class="bottom">
+                    <p>rymo. eCommerce &cent; 2023. All Rights Reserved</p>
+                </div>
+                <div class="bottom">
+                    <a href="">
+                        <i class="fab fa-facebook-f "></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="jquery-3.6.1.js"></script>
+        <script src="s-product.js"></script>
+    </body>
+
+</html>
